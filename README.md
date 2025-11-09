@@ -1,12 +1,12 @@
-# Rust Hex Editor
+# Rust Hex Viewer
 
-A lightweight Rust-based hex viewer/editor prototype that can be run either in TUI mode (ratatui + crossterm) or GUI mode (egui/eframe). The project currently focuses on fast read-only browsing of binary files while laying the groundwork for future editing features.
+A lightweight Rust-based hex viewer prototype that can be run either in TUI mode (ratatui + crossterm) or GUI mode (egui/eframe). The project currently focuses on fast read-only browsing of binary files while laying the groundwork for future editing features.
 
 ## Getting Started
 
 ```bash
 git clone <repo>
-cd rust-hex-editor
+cd rust-hex-viewer
 cargo run -- <FILE>
 ```
 
